@@ -1,0 +1,49 @@
+# Build output
+Debug/
+Release/
+**/.clangd/
+*.o
+*.obj
+*.d
+*.d_raw
+*.out
+*.map
+*.opt
+*.mk
+*.genlibs
+
+# Generated metadata
+compile_commands.json
+Event.dot
+
+# Local caches
+__pycache__/
+*.pyc
+
+# Local tooling state
+.agents/
+.codex/
+.claude/
+.vscode/
+
+# Temporary files
+~$*.docx
+*.tmp
+
+# Report and course-delivery artifacts
+build_mspm0_report_artifacts.py
+fig_*.svg
+render_mspm0_report/
+report_*.pdf
+report_*.pdf.txt
+report_*.docx
+report_*.md
+report_template_tmp.docx
+MSPM0*_report_*.docx
+MSPM0*_report_*.md
+mspm0_report_part.md
+MSPM0主控开发技术部分_按报告规范.docx
+MSPM0主控开发技术部分_按报告规范.md
+控制组电工电子工程基础VII课程报告模板.docx
+报告*.pdf
+task_F.pdf
